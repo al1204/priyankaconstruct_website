@@ -11,8 +11,40 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <script src="https://kit.fontawesome.com/e6727ab2bd.js" crossorigin="anonymous"></script>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+  <style>
+.btn-outline-secondary{
+    background-color:#030303;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+.btn-outline-secondary:hover{
+    background-color:#030303;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+.jumbotron{
+    background-color: #737b81;
+    font-family: 'Raleway', sans-serif;
+}
+
+.btn-primary{
+    background-color: #030303;
+    border: 1px solid #030303;
+    font-family: 'Raleway', sans-serif;
+}
+
+.btn-primary:hover{
+    background-color: #030303;
+    border: 1px solid #030303;
+    font-family: 'Raleway', sans-serif;
+}
+  </style>
     <body>
-       <nav class="navabar navbar-expand-md navbar-light bg-light sticky-top">
+       <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
          <div class="container-fluid">
            <a class="navbar-brand" href="#"><img src=""></a>
            <button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -21,25 +53,24 @@
            </button>
            <div class="collapse navbar-collapse" id="navbarResponsive">
              <ul class="navbar-nav ml-auto">
-               <li class="nav-item active">
-                 <a href="#" class="nav-link">HOME</a>
+               <li class="nav-item">
+                 <a href="#" class="nav-link" style="color: black;">HOME</a>
                </li>
                <li class="nav-item">
-                <a href="about.html" class="nav-link">ABOUT</a>
+                <a href="about.html" class="nav-link" style="color: black;">ABOUT</a>
                </li>
                <li class="nav-item">
-                <a href="projects.html" class="nav-link">PROJECTS</a>
+                <a href="projects.html" class="nav-link" style="color: black;">PROJECTS</a>
                </li>
                <li class="nav-item">
-                <a href="contact.html" class="nav-link">CONTACT</a>
+                <a href="contact.html" class="nav-link" style="color: black;">CONTACT</a>
                </li>
              </ul>
            </div>
          </div>
        </nav>
-      <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="8000">
-      
-        <!-- Indicators -->
+
+      <div id="myCarousel" class="carousel slide overlay" data-ride="carousel" data-interval="8000">
         <ul class="carousel-indicators">
           <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
           <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -48,26 +79,28 @@
         
         <!-- The slideshow -->
         <div class="carousel-inner">
-
-          <div class="carousel-item active bg-dark overlay">
-            <img src="images/141516.jpg" alt="Los Angeles" width="100%">
+          <div class="carousel-item active overlay">
+            <img src="images/bitumen.jpg" alt="Los Angeles" width="100%">
           <div class="carousel-caption">
-            <h2 class="animate__animated animate__fadeInUp animate__delay-2s">Neque porro quisquam est qui dolorem</h2>
+            <h4 class="animate__animated animate__fadeInUp animate__delay-2s" >Bitumen Sheets</h4>
             <h3 class="animate__animated animate__fadeInUp animate__delay-4s">Neque porro quisquam est qui dolorem</h3>
+            <a href="#"><button type="button" class="btn btn-outline-secondary btn-lg">WORK DONE</button></a>
           </div>
           </div>
-          <div class="carousel-item card-img-overlay overlay">
-            <img src="images/43654.jpg" alt="Chicago">
+          <div class="carousel-item">
+            <img src="images/43654.jpg" alt="Chicago" width="100%">
             <div class="carousel-caption">
-              <h2 class="animate__animated animate__fadeInUp animate__delay-2s">Neque porro quisquam est qui dolorem</h2>
+              <h4 class="animate__animated animate__fadeInUp animate__delay-2s">Fibre Glass</h4>
               <h3 class="animate__animated animate__fadeInUp animate__delay-4s">Neque porro quisquam est qui dolorem</h3>
+            <a href="#"><button type="button" class="btn btn-outline-secondary btn-lg">WORK DONE</button></a>
             </div>
           </div>
-          <div class="carousel-item card-img-overlay overlay">
-            <img src="images/141516.jpg" alt="New York">
+          <div class="carousel-item">
+            <img src="images/141516.jpg" alt="New York" width="100%">
             <div class="carousel-caption">
-              <h2 class="animate__animated animate__fadeInUp animate__delay-2s">Neque porro quisquam est qui dolorem</h2>
+              <h4 class="animate__animated animate__fadeInUp animate__delay-2s">PVC</h4>
               <h3 class="animate__animated animate__fadeInUp animate__delay-4s">Neque porro quisquam est qui dolorem</h3>
+            <a href="#"><button type="button" class="btn btn-outline-secondary btn-lg">WORK DONE</button></a>
             </div>
           </div>
         </div>
@@ -83,22 +116,22 @@
 
     <!-- THING TO DO -->
 
-      <div class="container-fluid padding mt-5">
+      <div class="container-fluid padding mt-5 font">
         <div class="row text-center padding">
           <div class="col-xs-12 col-sm-6 col-md-4">
-            <img src="images/final4.png" width="20%">
-            <h3>HTML</h3>
-            <p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, </p>
+            <img src="images/4.png" width="20%">
+            <h4 style="font-weight: bold;">Bitumen</h4>
+            <p>Sheets are laid firmly on surface with tar based adhesives using blowtorches</p>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-4">
             <img src="images/5.png" width="20%">
-            <h3>HTML</h3>
-            <p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, </p>
+            <h4 style="font-weight: bold;">Fibre Glass Mesh</h4>
+            <p>After applying the thick coat of the waterproofing agent this mesh is placed.</p>
           </div>
           <div class="col-xs-12 col-md-4">
             <img src="images/6.png" width="20%">
-            <h3>HTML</h3>
-            <p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, </p>
+            <h4 style="font-weight: bold;">PVC</h4>
+            <p>A special hot air welding machine and building dryers are used. </p>
           </div>
         </div>
         <hr class="my-4">
@@ -109,44 +142,48 @@
       <div class="container-fluid">
         <div class="row jumbotron">
           <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 cold-xl-10">
-            <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+            <h3 class="work mb-3">DISCOVER SOME OUR WORK DONE FOR OUR CLIENTS</h3>
+            <h5 class="work">Here is a glimpse of our work done </p>
+            <h5 class="work">We try to do our best to bring the best for clients</p>
           </div>
           <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 cold-xl-2">
-            <a href="#"><button type="button" class="btn btn-outline-secondary btn-lg">WORK DONE</button></a>
+            <a href="#"><button type="button" class="btn btn-outline-secondary btn-lg workdone">WORK DONE</button></a>
           </div>
         </div>
       </div>
 
       <!-- ABOUT COMPANY -->
 
-      <div class="container-fluid padding">
+      <div class="container-fluid padding font">
         <div class="row welcome text-center">
           <div class="col-12">
-            <h1 class="display-4">Built with ease</h1>
+            <h1 style="font-weight: bold;">OUR COMPANY</h1>
           </div>
           <hr class="my-4">
           <div class="col-12">
-            <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+            <h3 class="lead"><b>
+              We have been providing our waterproofing services since 1996</b>
+            </h3>
           </div>
         </div>
       </div>
 <br>
-      <div class="container-fluid padding">
+      <div class="container-fluid padding font">
         <div class="row text-center padding">
           <div class="col-xs-12 col-sm-6 col-md-4">
-            <img src="images/final1.png" width="20%">
-            <h3>HTML</h3>
-            <p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, </p>
+            <img src="images/1.png" width="20%">
+            <h4 style="font-weight: bold;">Work Commitment</h4>
+            <p>We have skillful workers, who will stay true to job till its up to the mark.</p>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-4">
-            <img src="images/final2.png" width="20%">
-            <h3>HTML</h3>
-            <p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, </p>
+            <img src="images/2.png" width="20%">
+            <h4 style="font-weight: bold;">Assured Quality</h4>
+            <p>Winning your trust, we have achieved success as a result of our years of hard work and dedication.</p>
           </div>
           <div class="col-xs-12 col-md-4">
-            <img src="images/final3.png" width="20%">
-            <h3>HTML</h3>
-            <p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, </p>
+            <img src="images/3.png" width="20%">
+            <h4 style="font-weight: bold;">Maintainance Services</h4>
+            <p>We make sure that our work is at par to fight against the weather</p>
           </div>
         </div>
 
