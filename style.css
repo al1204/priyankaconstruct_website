@@ -9,60 +9,49 @@
 html, body{
     height: 100%;
     width: 100%;
-    font-family: 'Raleway', sans-serif;
+    font-family: sans-serif,'Raleway';
         color: #222;
     background-color: white;
 }
 /* fffbc8 */
 .navbar{
-    padding:.8rem;
+    /* padding:.5rem; */
     background-color: white;
 }
 
 .navbar-nav li{
     color: black;
-    padding-right:20px;
+    padding-left:10px;
 }
 
-/* .nav-link{
-    font-size: 1.1rem !important;
+.nav-link{
+    margin-left: 10px;
+    font-size: 13px !important;
     font-family: 'Raleway', sans-serif;
 
-} */
+}
 
 .nav-item a{
-    font-size: 1.1rem !important;
-    font-family: 'Raleway', sans-serif;
-
+    font-size: 13px !important;
+    font-family: sans-serif,'Raleway';
+    font-weight: bold;
 }
 
- /* .nav-item a:hover{
-    font-family: 'Raleway', sans-serif;
-    color: #e7e7e7;
-} */
-
-.overlay{
-    position: absolute;
-    width: 100%;
-    height:85vh;
-    z-index: 10;
-    background-color: rgba(0,0,0,0.5);
-    opacity: .9;
+ .nav-item a:hover{
+    color: #494B52;
 }
+
+.li{
+    margin-left: 10px;
+   font-size: 12px;
+   padding-left: 20px;
+}
+
 
 .work{
     color: white;
 }
 
-.btn-outline-secondary{
-    background-color: rgb(250, 164, 3);
-}
-
-.jumbotron{
-    background-color: #737b81;
-    /* background-image: url(images/141516.jpg); */
-    height: 300px;
-}
 .carousel-inner img{
     width:100%;
     height: 85vh;
@@ -72,16 +61,16 @@ html, body{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    font-family: 'Raleway', sans-serif;
+    font-family:sans-serif,'Raleway';
 }
 
 .font{
-    font-family: 'Raleway', sans-serif;
+    font-family: sans-serif,'Raleway';
 }
 
 .carousel-caption h2{ 
     text-transform: uppercase;
-    font-family: 'Raleway', sans-serif;
+    font-family:sans-serif,'Raleway';
     text-shadow: 1px 1px 10px #000;
 }
 
@@ -90,18 +79,23 @@ html, body{
     font-weight: 500;
     text-shadow: 1px 1px 10px #000;
     padding-bottom: 1rem;
-    font-family: 'Raleway', sans-serif;
+    font-family: sans-serif,'Raleway';
 }
 
 footer{
-    background-color: #3b3b3b;
+    background-color: #494B52;
     color: #d5d5d5;
     padding-top: 2rem;
-    font-family: 'Raleway', sans-serif;
+    font-family: sans-serif,'Raleway';
 }
 
 hr.light{
     border-top: 1px solid #d5d5d5;
+}
+
+.lol{
+    margin-left: 100px;
+    margin-bottom: 20px;
 }
 
 .overlay1{
@@ -121,8 +115,49 @@ div.transbox {
     box-shadow: 5px 5px 11px grey;
   }
 
-  @media only screen and (max-width: 6px) {
-    body {
-      background-color: lightblue;
+  .btn-outline-secondary{
+    background-color:#030303;
+    font-family: sans-serif,'Raleway';
+    color: white;
+    font-size: 15px;
+}
+
+.btn-outline-secondary:hover{
+    background-color:#030303;
+    font-family: sans-serif,'Raleway';
+    color: white;
+}
+
+.btn-outline-secondary:focus{
+    background-color:#030303;
+    font-family: sans-serif,'Raleway';
+    color: white;
+}
+
+.jumbotron{
+    background-color: #A5AAB8;
+    font-family: sans-serif,'Raleway';
+}
+
+.btn-primary{
+    background-color: #030303;
+    border: 1px solid #030303;
+    font-family: sans-serif,'Raleway';
+}
+
+.btn-primary:hover{
+    background-color: #030303;
+    border: 1px solid #030303;
+    font-family:  sans-serif,'Raleway';
+}
+
+@media only screen and (max-width: 667px) {
+    .lol{
+        margin-left: 100px;
+        margin-bottom: 20px;
     }
-  }
+    .logo{
+        width: 60%;
+        height: 100%;
+    }
+}
