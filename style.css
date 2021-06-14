@@ -9,7 +9,7 @@
 html, body{
     height: 100%;
     width: 100%;
-    font-family: sans-serif,'Raleway';
+    font-family: 'work sans';
         color: #222;
     background-color: white;
 }
@@ -27,18 +27,20 @@ html, body{
 .nav-link{
     margin-left: 10px;
     font-size: 13px !important;
-    font-family: 'Raleway', sans-serif;
+    font-family:  sans-serif;
 
 }
 
 .nav-item a{
-    font-size: 13px !important;
-    font-family: sans-serif,'Raleway';
-    font-weight: bold;
+    font-size: 19px !important;
+    font-family: 'work sans';
+    font-weight: 600;
+    
 }
 
  .nav-item a:hover{
     color: #494B52;
+    font-style:underline;
 }
 
 .li{
@@ -61,16 +63,16 @@ html, body{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    font-family:sans-serif,'Raleway';
+    font-family:'work sans';
 }
 
 .font{
-    font-family: sans-serif,'Raleway';
+    font-family: 'work sans';
 }
 
 .carousel-caption h2{ 
     text-transform: uppercase;
-    font-family:sans-serif,'Raleway';
+    font-family:'work sans';
     text-shadow: 1px 1px 10px #000;
 }
 
@@ -79,14 +81,14 @@ html, body{
     font-weight: 500;
     text-shadow: 1px 1px 10px #000;
     padding-bottom: 1rem;
-    font-family: sans-serif,'Raleway';
+    font-family: 'work sans';
 }
 
 footer{
     background-color: #494B52;
     color: #d5d5d5;
     padding-top: 2rem;
-    font-family: sans-serif,'Raleway';
+    font-family: 'work sans';
 }
 
 hr.light{
@@ -117,38 +119,38 @@ div.transbox {
 
   .btn-outline-secondary{
     background-color:#030303;
-    font-family: sans-serif,'Raleway';
+    font-family: 'work sans';
     color: white;
     font-size: 15px;
 }
 
 .btn-outline-secondary:hover{
     background-color:#030303;
-    font-family: sans-serif,'Raleway';
+    font-family: 'work sans';
     color: white;
 }
 
 .btn-outline-secondary:focus{
     background-color:#030303;
-    font-family: sans-serif,'Raleway';
+    font-family: 'work sans';
     color: white;
 }
 
 .jumbotron{
     background-color: #A5AAB8;
-    font-family: sans-serif,'Raleway';
+    font-family: 'work sans';
 }
 
 .btn-primary{
     background-color: #030303;
     border: 1px solid #030303;
-    font-family: sans-serif,'Raleway';
+    font-family: 'work sans';
 }
 
 .btn-primary:hover{
     background-color: #030303;
     border: 1px solid #030303;
-    font-family:  sans-serif,'Raleway';
+    font-family:  'work sans';
 }
 
 @media only screen and (max-width: 667px) {
