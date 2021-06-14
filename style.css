@@ -4,6 +4,8 @@
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
+    font-family: 'work sans';
+
 }
 
 html, body{
@@ -13,35 +15,65 @@ html, body{
         color: #222;
     background-color: white;
 }
-/* fffbc8 */
+
 .navbar{
-    /* padding:.5rem; */
     background-color: white;
 }
 
 .navbar-nav li{
-    color: black;
+    color: #232427;
     padding-left:10px;
 }
 
-.nav-link{
-    margin-left: 10px;
-    font-size: 13px !important;
-    font-family:  "work sans";
-    
-}
-
-.nav-item a{
-    font-size: 19px !important;
+.link{
+    font-size: 15px !important;
     font-family: 'work sans';
-    font-weight: 600;
+    font-weight: 600;  
+    color: #232427;
+    margin-left: 20px;
 
-    
 }
 
- .nav-item a:hover{
+.link:hover{
     color: #494B52;
-    font-style:underline;
+    text-decoration: underline;
+}
+
+.call{
+    background-color: #D12424;
+    color: white;
+    font-family:  "work sans";
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.call:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.slider_btn{
+    background-color: #D12424;
+    color: white;
+    font-family:  "work sans";
+    text-decoration: none;
+    padding: 15px 40px 15px 40px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.slider_btn:hover{
+    color: white;
+    text-decoration: none;
 }
 
 .li{
@@ -118,41 +150,22 @@ div.transbox {
     box-shadow: 5px 5px 11px grey;
   }
 
-  .btn-outline-secondary{
-    background-color:#030303;
-    font-family: 'work sans';
-    color: white;
-    font-size: 15px;
-}
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
 
-.btn-outline-secondary:hover{
-    background-color:#030303;
-    font-family: 'work sans';
-    color: white;
-}
+  .about{
+      padding: 10px 5px ;
+      background-color: #232427;
+      border-radius: 3px;
+      color:white;
+      font-weight:bold;
+      border: none;
+      outline: none;
+  }
 
-.btn-outline-secondary:focus{
-    background-color:#030303;
-    font-family: 'work sans';
-    color: white;
-}
-
-.jumbotron{
-    background-color: #A5AAB8;
-    font-family: 'work sans';
-}
-
-.btn-primary{
-    background-color: #030303;
-    border: 1px solid #030303;
-    font-family: 'work sans';
-}
-
-.btn-primary:hover{
-    background-color: #030303;
-    border: 1px solid #030303;
-    font-family:  'work sans';
-}
 
 @media only screen and (max-width: 667px) {
     .lol{
@@ -162,5 +175,8 @@ div.transbox {
     .logo{
         width: 60%;
         height: 100%;
+    }
+    .aboutbtn{
+        margin-right:-8100px;
     }
 }
