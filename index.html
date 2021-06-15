@@ -14,12 +14,66 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
       <link rel="preconnect" href="https://fonts.gstatic.com">
       <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.gstatic.com">
+<!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" 
+crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
 </head>
   <style>
+    .owl-carousel .owl-nav button.owl-prev{
+    background-color: #D12424;
+    color: white;
+    padding:0 !important;
+    width: 40px;
+    height: 40px;
+    font-size: 30px; 
+    align-items: center; 
+    justify-content: center;
+    border: none;
+    transform: translateY(-50%);
+  }
+  .owl-carousel .owl-nav button.owl-prev:hover{
+    background-color: #D12424;
+    color: white;
+    padding:0 !important;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    border: none;
+    outline: none;
+    transform: translateY(-50%);
+  }
+
+  .owl-carousel .owl-nav button.owl-next{
+    background-color: #D12424;
+    color: white;
+    padding:0 !important;
+    width: 40px;
+    height: 40px;
+    font-size: 30px; 
+    align-items: center;   
+    justify-content: center;
+    border: none;
+    transform: translateY(-50%);
+  }
+  .owl-carousel .owl-nav button.owl-next:hover{
+    background-color: #D12424;
+    color: white;
+    padding:0 !important;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    outline: none;
+    /* font:x-large; */
+    border: none;
+    transform: translateY(-50%);
+  }
   </style>
     <body>
-       <nav class="navbar navbar-expand-md navbar-light fixed-top">
+       <nav class="navbar navbar-expand-md navbar-light sticky-top">
          <div class="container-fluid">
            <a class="navbar-brand lol" href="#"><img class="logo" src="images/final.png" width="20%" height="100%" style="margin-top:5px;"></a>
            <button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -201,10 +255,49 @@
           </div>
         </div>
       </div>
-      <br>
+      <hr>
+<!-- WORK DONE SLIDESHOW -->
+<div class="proback">
+          <div class="col-md-12">
+            <br><h2 style="font-weight: bolder; color: white" class="ml-5 mb-3">PROJECTS</h2>
+            <p style="font-weight: bolder; color: white;" class="ml-5 mb-3">Think somehting for this place....</p>
+          </div>
+          
+    <div class="center">
+      <div class="owl-carousel owl-theme owlbox">
+        <div class="item mt-4 ml-4 mb-4">
+          <img src="images/mastic.png">
+        </div>
+        <div class="item mt-4 ml-4 mb-4">
+          <img src="images/mastic.png">
+        </div>
+        <div class="item mt-4 ml-4 mb-4">
+          <img src="images/mastic.png">
+        </div>
+        <div class="item mt-4 ml-4 mb-4">
+          <img src="images/mastic.png">
+        </div>
+        <div class="item mt-4 ml-4 mb-4">
+          <img src="images/mastic.png">
+        </div>
+        <div class="item mt-4 ml-4 mb-4">
+          <img src="images/mastic.png">
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10"></div>
+        <div class="col-md-2 text-center">
+          <a href="project.html" class="nav-link mt-4" style="background-color: #D12424;border-radius: 5px;color:white;font-weight: bold;">Work Done</a>
+        </div>
+      </div>
+    </div>
+</div><br>
+
 
       <!-- FOOTER -->
-      <section class="" style="background-color: #232427;">
+      <div class="" style="background-color: #232427;">
         <div class="container">
           <div class="row">
             <div class="col-lg-4 col-sm-7 sm-padding  mt-5">
@@ -237,7 +330,33 @@
         <div class="col-12 text-center">
           <p style="color: #BCC1d1;font-size: 13px;  padding-bottom: 18px;">PRIYANKA CONSTRUCTIONS,2021 | Website by Alvina Joy</p>
         </div>
-      </section>
-     
+      </b>
+
+<script type="text/javascript">
+
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:0,
+    nav:true,
+    autoplay: true,
+    dots:false,
+    autoplayTimeout:4000,
+
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:0
+        },
+        1000:{
+            items:3
+        }
+    }
+    
+})
+
+</script> 
+
     </body>
 </html>
