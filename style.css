@@ -172,18 +172,15 @@ div.transbox {
     position: absolute;
     top:-3rem;
     right:0;
-
-  }
+}
   
 
 .item{
     width:350px;
-
 }
 
 .item img{
     border-radius: 10px;
-
 }
 
   div.owlbox {
@@ -191,6 +188,18 @@ div.transbox {
     background-color: #dfdfdf;
     border-radius: 5px;
   }
+
+  div.testbox {
+    width: 1170px;
+  background-color: #dfdfdf;
+  border-radius: 5px;
+}
+
+.comment{
+    margin-left:250px; 
+    font-size: 40px;
+    color: #727377;
+}
 
   .center {
     display: flex;
