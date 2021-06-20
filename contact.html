@@ -14,9 +14,15 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
       <link rel="preconnect" href="https://fonts.gstatic.com">
       <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-    <body>
-      <nav class="navbar navbar-expand-md navbar-light fixed-top">
+<!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" 
+crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+    <body style="background-color: #232427;">
+      <nav class="navbar navbar-expand-md navbar-light sticky-top">
         <div class="container-fluid">
           <a class="navbar-brand lol" href="#"><img class="logo" src="images/final.png" width="20%" height="100%" style="margin-top:5px;"></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -45,54 +51,63 @@
         </div>
       </nav>
 
-       <div class="card bg-dark text-white mt-5">
-        <img class="card-img" src="images/43654.jpg" alt="Card image" height="285vh">
-        <div class="card-img-overlay overlay1">
-          <h1 class="card-title text-center mt-5">CONTACT US</h1>
-        </div>
+<section class="section">
+<div class="container">
+  <div class="contactinfo">
+    <div>
+      <h4 class="text-center">CONTACT INFO</h4>
+      <ul class="info">
+        <li>
+          <span><i class="fa fa-map-marker"></i></span>
+          <span>Assisi Nagar, P.L.Lokhande Marg<br>
+             Chembur,Mumbai,400043</span>
+        </li>
+        <li>
+          <span><i class="fa fa-envelope"></i></span>
+          <span>priyankaconstruct@yahoo.co.in</span>
+        </li>
+        <li>
+          <span><i class="fa fa-phone-alt" aria-hidden="true"></i></span>
+          <span>+91 9820348194</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="contactform">
+    <h1>GET IN TOUCH WITH US</h1>
+    <p>Want to get in touch with us? Here's how you can reach me...</p>
+    <div class="formBox">
+      <div class="inputBox w50">
+        <input type="text" name="" required>
+        <span>First Name</span>
       </div>
-
-      <!-- <div class="row"> -->
-          <div class="col-md-6">
-            <div class="transbox">
-              <form class="row">
-                <div class="col-md-6">
-                  <label for="inputFirstName" class="form-label">First Name</label>
-                  <input required type="text" class="form-control" id="inputFirstName">
-                </div>
-                <div class="col-md-6">
-                  <label for="inputLastName" class="form-label">Last Name</label>
-                  <input required type="text" class="form-control" id="inputLastName">
-                </div>
-                <div class="col-12">
-                  <label for="inputEmail4" class="form-label">Email</label>
-                  <input required type="email" class="form-control" id="inputEmail4">
-                </div>
-                <div class="col-12">
-                  <label for="inputContact" class="form-label">Contact Number</label>
-                  <input required type="tel" class="form-control" id="inputContact">
-                </div>
-                <div class="col-12 mt-4">
-                  <label for="inputMesage" class="form-label">Message</label>
-                  <textarea required class="form-control" aria-label="With textarea" id="inputMesage" style="resize:none;"></textarea>
-                </div>
-                <div class="col-12 mt-5">
-                  <button type="submit" class="btn btn-primary">SUBMIT</button>
-                </div>
-              </form>
-            </div>        
-          </div>
-        <div class="col-md-5">
-          <div class="transbox">
-            
-
-          </div>
-        </div>
+      <div class="inputBox w50">
+        <input type="text" name="" required>
+        <span>Last Name</span>
       </div>
-     
+      <div class="inputBox w50">
+        <input type="email" name="" required>
+        <span>Email Address</span>
+      </div>
+      <div class="inputBox w50">
+        <input type="tel" name="" required>
+        <span>Mobile Number</span>
+      </div>
+      <div class="inputBox w100">
+        <textarea style="resize: none;" name="" required></textarea>
+        <span>Write message here...</span>
+      </div>
+      <div class="inputBox w50">
+        <input type="submit" value="Submit">
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+</section>     
 
      <!-- FOOTER -->
-     <section class="" style="background-color: #232427;">
+     <div class="" style="background-color: #232427;">
       <div class="container">
         <div class="row">
           <div class="col-lg-4 col-sm-7 sm-padding  mt-5">
@@ -125,7 +140,7 @@
       <div class="col-12 text-center">
         <p style="color: #BCC1d1;font-size: 13px;  padding-bottom: 18px;">PRIYANKA CONSTRUCTIONS,2021 | Website by Alvina Joy</p>
       </div>
-    </section>
+    </div>
      
     </body>
 </html>
