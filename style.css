@@ -159,7 +159,7 @@ div.transbox {
   }
 
   .proback{
-    height: 550px;
+    height: 580px;
     /* background-color: #232427; */
     background-image: url(images/work.png);
     background-position: center;
@@ -414,6 +414,21 @@ div.transbox {
 }
 
 @media only screen and (max-width: 667px) {
+    .call_1{
+        margin-top: 14px;
+    }
+    .caption{
+        font-size: 20px;
+    }
+    .heading{
+        font-size: 25px;
+    }
+    .heading_1{
+        font-size: 22px;
+    }
+    .defn{
+        font-size: 20px;
+    }
     .lol{
         margin-left: 100px;
         margin-bottom: 20px;
@@ -433,6 +448,10 @@ div.transbox {
     div.owlbox {
         width: 390px;
     }
+    div.testbox {
+        width: 390px;
+    }
+    
     
     .section:before{
         display: none;
@@ -461,6 +480,16 @@ div.transbox {
         box-shadow: none;
         width: 100%;
         height: auto;
+    }
+    .owl-carousel .owl-nav button.owl-prev{
+        margin-top: 40px;
+    }
+    .owl-carousel .owl-nav button.owl-next{
+        margin-top: 40px;
+    }
+    .btn{
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
 
