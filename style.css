@@ -409,6 +409,9 @@ div.transbox {
     background-image: url(images/bg.png);
     height: auto;
 }
+.img-fluid:hover{
+    transform: scale(1.1);
+}
 
 @media only screen and (max-width: 667px) {
     .lol{
