@@ -3,6 +3,7 @@
 <head>
     <title>Index</title>
     <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="style.scss" type="text/css">
     <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -21,11 +22,15 @@
 integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" 
 crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
 </head>
   <style>
+     
     .owl-carousel .owl-nav button.owl-prev{
+      margin: 0;
     background-color: #D12424;
-    color: white;
+    color: rgb(255, 255, 255);
     padding:0 !important;
     width: 40px;
     height: 40px;
@@ -33,11 +38,12 @@ crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     align-items: center; 
     justify-content: center;
     border: none;
+    border-radius: 5px;
     transform: translateY(-50%);
   }
   .owl-carousel .owl-nav button.owl-prev:hover{
     background-color: #D12424;
-    color: white;
+    color: rgb(255, 255, 255);
     padding:0 !important;
     width: 40px;
     height: 40px;
@@ -48,8 +54,9 @@ crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   }
 
   .owl-carousel .owl-nav button.owl-next{
+    margin: 0;
     background-color: #D12424;
-    color: white;
+    color: rgb(255, 255, 255);
     padding:0 !important;
     width: 40px;
     height: 40px;
@@ -57,20 +64,23 @@ crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     align-items: center;   
     justify-content: center;
     border: none;
+    margin-left: 5px;
+    border-radius: 5px;
     transform: translateY(-50%);
   }
   .owl-carousel .owl-nav button.owl-next:hover{
     background-color: #D12424;
-    color: white;
+    color: rgb(255, 255, 255);
     padding:0 !important;
     width: 40px;
     height: 40px;
     font-size: 30px;
     outline: none;
-    /* font:x-large; */
     border: none;
     transform: translateY(-50%);
   }
+
+ 
   </style>
     <body>
        <nav class="navbar navbar-expand-md navbar-light sticky-top">
@@ -102,15 +112,15 @@ crossorigin="anonymous" referrerpolicy="no-referrer"></script>
          </div>
        </nav>
 
-      <div id="myCarousel" class="carousel slide " data-ride="carousel" data-interval="4000">
+
+       <div id="myCarousel" class="carousel slide " data-ride="carousel" data-interval="4000">
         <ul class="carousel-indicators ">
           <li data-target="#myCarousel" data-slide-to="0" class="active "></li> 
           <li data-target="#myCarousel" data-slide-to="1"></li>
           <li data-target="#myCarousel" data-slide-to="2"></li>
         </ul>
         
-        <!-- The slideshow -->
-        <div class="carousel-inner ">
+        <div class="carousel-inner" style="">
           <div class="carousel-item active">
             <img src="images/membrane.png" alt="Los Angeles" width="90%">
           <div class="carousel-caption" style="text-align: left;">
@@ -143,7 +153,6 @@ crossorigin="anonymous" referrerpolicy="no-referrer"></script>
           </div>
         </div>
         
-        <!-- Left and right controls -->
         <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
           <span class="carousel-control-prev-icon"></span>
         </a>
@@ -152,11 +161,19 @@ crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         </a>
       </div>
 
+
+
+      
+
+
+
+
+
       <!-- CONTACT US -->
       <div class="container">
         <div class="row">
           <div class="col-md-12 text-center mt-4">
-            <h2 style="font-weight: bolder;" class="heading">SERVICES WE PROVIDE</h2>
+            <h2  class="heading">SERVICES WE PROVIDE</h2>
           </div>
         </div>
       </div>
@@ -165,22 +182,22 @@ crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <div class="row text-center padding mb-3">
           <div class="col-xs-12 col-sm-6 col-md-4">
             <img src="images/4.png" width="15%"  class="mb-3">
-            <h4 style="font-weight: 500;"class="heading_1">Waterproofing</h4>
-            <p  style="color: #727377; font-size: 17px;" class="defn">
+            <h4 class="heading_1">Waterproofing</h4>
+            <p class="defn">
               Combination of materials used to prevent water intrusion into the structural elements of a building or its finished spaces.
             </p>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-4">
             <img src="images/5.png" width="15%" class="mb-3">
-            <h4 style="font-weight: 500;"class="heading_1">Mastic Flooring</h4>
-            <p  style="color: #727377; font-size: 17px;" class="defn">
+            <h4 class="heading_1">Mastic Flooring</h4>
+            <p class="defn">
               Total waterproofing for roofing and tanking and acts as a tough working surface in flooring and paving.
             </p>
           </div>
           <div class="col-xs-12 col-md-4">
             <img src="images/6.png" width="15%" class="mb-3">
-            <h4 style="font-weight: 500;"class="heading_1">Road Marking</h4>
-            <p  style="color: #727377; font-size: 17px;"class="defn">
+            <h4 class="heading_1">Road Marking</h4>
+            <p  class="defn">
               Lines, patterns or words for controlling, warning, guiding and informing the users.
             </p>
           </div>
@@ -188,41 +205,52 @@ crossorigin="anonymous" referrerpolicy="no-referrer"></script>
       </div>
       <hr>
 
-      <!-- WORK DONE SLIDESHOW -->
-<div class="proback">
-          <div class="col-md-12">
-            <br><h2 style="font-weight: bolder; color: white" class="heading ml-5 mb-3">PROJECTS</h2>
-            <!-- <p style="font-weight: bolder; color: white;" class="ml-5 mb-3">Think somehting for this place....</p> -->
+
+<div class="container-fluid proback">
+  <div class="col-md-12">
+    <br><h2 style="font-weight: bolder; color: white" class="heading ml-5 mb-3"> | PROJECTS</h2>
+    <h6 style="color: white" class="ml-5 mb-3"> We assure 100% customer satisfaction,
+      meeting your needs are our main motto</h6>
+  </div>
+  <div class="row">
+      <div id="news-slider" class="owl-carousel">
+        <div class="post-slide">
+          <div class="post-img">
+            <img src="images/work1.jpg" alt="">
+            <a href="projects.html" class="over-layer"><i class="fa fa-link"></i></a>
           </div>
-          
-    <div class="center">
-      <div class="owl-carousel owl-theme owlbox">
-        <div class="item mt-4 ml-4 mb-4">
-          <img src="images/work10.jpg">
         </div>
-        <div class="item mt-4 ml-4 mb-4">
-          <img src="images/work1.jpg">
+        
+        <div class="post-slide">
+          <div class="post-img">
+            <img src="images/work16.jpg" alt="">
+            <a href="projects.html" class="over-layer"><i class="fa fa-link"></i></a>
+          </div>
         </div>
-        <div class="item mt-4 ml-4 mb-4">
-          <img src="images/work11.jpg">
+        
+        <div class="post-slide">
+          <div class="post-img">
+            <img src="images/work10.jpg" alt="">
+            <a href="projects.html" class="over-layer"><i class="fa fa-link"></i></a>
+          </div>
         </div>
-        <div class="item mt-4 ml-4 mb-4">
-          <img src="images/work15.jpg">
+        
+        <div class="post-slide">
+          <div class="post-img">
+            <img src="images/work11.jpg" alt="">
+            <a href="projects.html" class="over-layer"><i class="fa fa-link"></i></a>
+          </div>
         </div>
-        <div class="item mt-4 ml-4 mb-4">
-          <img src="images/work16.jpg">
+
+        <div class="post-slide">
+          <div class="post-img">
+            <img src="images/work15.jpg" alt="">
+            <a href="projects.html" class="over-layer"><i class="fa fa-link"></i></a>
+          </div>
         </div>
       </div>
     </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-10"></div>
-        <div class="col-md-2 text-center">
-          <a href="projects.html" class="nav-link mt-4 btn" style="background-color: #D12424;border-radius: 5px;color:white;font-weight: bold;">Work Done</a>
-        </div>
-      </div>
-    </div>
-</div><br>
+</div>
 
 
 
@@ -230,17 +258,14 @@ crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
  <div class="container-fluid padding font">
   <div class="row welcome text-center">
-    <div class="col-12">
-      <h2 style="font-weight: bold;" class="heading">OUR COMPANY</h2><br>
+    <div class="col-12"><br>
+      <h2 class="heading">OUR COMPANY</h2><br>
     </div>
     <hr class="my-4">
     <div class="col-12">
-      <h3 class="lead" style="color: #4b4b4b; font-size: 18px;"class="heading_1">
-        <b>We are government contractors who specialize in Waterproofing, Mastic Flooring, Road Marking and Insulation.
-          <br>We assure 100% customer satisfaction,
-          meeting your needs are our main motto and we strive to fulfill that.
-          <br>The key to our success is the eagerness to find solutions to our customer needs, always backed with a well- qualified
-          team to assist.</b>
+      <h3 class="defn">We are government contractors who specialize in Waterproofing, Mastic Flooring, Road Marking and Insulation.
+        <br>The key to our success is the eagerness to find solutions to our customer needs, always backed with a well- qualified
+          team to assist.
       </h3>
     </div>
   </div>
@@ -251,7 +276,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <div class="col-xs-12 col-sm-6 col-md-4">
       <img src="images/img1.png" width="25%">
       <h4 class="heading_1">Work Commitment</h4>
-      <p style="color: #727377; font-size: 17px;"class="defn">We have skillful workers, who will stay true to job till 
+      <p class="defn">We have skillful workers, who will stay true to job till 
         its up to the mark.</p>
     </div>
     <div class="col-xs-12 col-sm-6 col-md-4">
@@ -263,13 +288,13 @@ crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <div class="col-xs-12 col-md-4">
       <img src="images/img3.png" width="20%">
       <h4 class="heading_1">Maintainance Services</h4>
-      <p style="color: #727377; font-size: 17px;" class="defn">We make sure that our work is at par to fight against the weather</p>
+      <p class="defn">We make sure that our work is at par to fight against the weather</p>
     </div>
   </div>
   <br>
-  <div class="center">
+  <!-- <div class="center">
     <a href="about.html" class="nav-link" style="background-color: #232427;border-radius: 3px;color:white;font-weight: bold;">More&nbsp;About&nbsp;Us</a>
-  </div>
+  </div> -->
 </div>
 <br>
 <br>
@@ -280,12 +305,12 @@ crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <div class="container-fluid">
           <div class="row jumbotron work_done">
             <div class="col-md-10">
-              <h3 class="work mb-3 ml-5 heading" style="font-weight: bold;">DISCOVER SOME OUR WORK DONE FOR OUR CLIENTS</h3>
-              <h5 class="work ml-5 heading_1">Here is a glimpse of our work done </p>
-              <h5 class="work ml-5 heading_1">We try to do our best to bring the best for clients</p>
+              <h3 class="work mb-3 ml-5 heading">DISCOVER SOME OUR WORK DONE FOR OUR CLIENTS</h3>
+              <h5 class="work ml-5 defn" style="color: white;">Here is a glimpse of our work done </p>
+              <h5 class="work ml-5 defn" style="color: white;">We try to do our best to bring the best for clients</p>
             </div>
             <div class="col-md-2 text-center">
-              <a href="projects.html" class="nav-link mt-4" style="background-color: #D12424;border-radius: 5px;color:white;font-weight: bold;">Work&nbsp;Done</a>
+              <a href="projects.html" class="nav-link mt-4 work_long" style="background-color: #D12424;border-radius: 5px;color:white;font-weight: bold;">Work&nbsp;Done</a>
             </div>
           </div>
         </div>
@@ -293,68 +318,53 @@ crossorigin="anonymous" referrerpolicy="no-referrer"></script>
       
 
 
-<!-- TESTIMOIALS -->
-
-<div class="col-md-12">
-  <br><h2 style="font-weight: bolder; color: black" class="ml-5 mb-3 heading">WHAT OUR CLIENTS SAY</h2>
-  <!-- <p style="font-weight: bolder; color: #D12424;" class="ml-5 mb-3">Think somehting for this place....</p> -->
-</div>
-
-
-<div class="center">
-  <div class="owl-carousel owl-theme testbox">
-    <div class="item mt-4 ml-4 mb-4" style="width:350px">
-      <div class="card">
-        <div class="card-body">
-          <i class="fa fa-commenting mb-3 comment" aria-hidden="true"></i>
-          <p class="card-text">
-            All work was done extremely professionally. This was a sudden job after we found a leak
-            Priyanka Constructions gave us a quote, outlined the work and made sure the job was done exactly as promised – 
-            on time and with top notch quality.
-          </p>
-          <h5 class="card-subtitle">~Anonymous</h5>
-        </div>
-      </div>
-    </div>
-    <div class="item mt-4 ml-4 mb-4" style="width:350px">
-      <div class="card">
-        <div class="card-body">
-          <i class="fa fa-commenting mb-3 comment" aria-hidden="true"></i>
-          <p class="card-text">
-            Various cost effective options with latest innovative solutions without modifying the exsisting structure.
-          </p>
-          <h5 class="card-subtitle">~Anonymous</h5>
-        </div>
-      </div>
-    </div>
-    <div class="item mt-4 ml-4 mb-4" style="width:350px">
-      <div class="card">
-        <div class="card-body">
-          <i class="fa fa-commenting mb-3 comment" aria-hidden="true"></i>
-          <p class="card-text">
-            Their service is excellent and the reason is that they are very professional, they have guaranteed solutions
-            to every kind of leakage problems.
-          </p>
-          <h5 class="card-subtitle">~Anonymous</h5>
-        </div>
-      </div>
-    </div>
-    <div class="item mt-4 ml-4 mb-4" style="width:350px">
-      <div class="card">
-        <div class="card-body">
-          <i class="fa fa-commenting mb-3 comment" aria-hidden="true"></i>
-          <p class="card-text">
-            We are very happy with the results and professionalism with which the contract was executed in a stipulated time.
-            We highly appreciate their work and recommend to give them oppurtunity to experience their excellant service.
-          </p>
-          <h5 class="card-subtitle">~Anonymous</h5>
-        </div>
-      </div>
-    </div>
+ 
+<div class="demo">
+  <div class="col-md-12">
+    <br><h2 style="font-weight: bolder; color: black" class="heading ml-5 mb-3">WHAT OUR CLIENTS HAVE TO SAY...</h2>
+    <h6 style="color: black" class="ml-5"> We assure 100% customer satisfaction,
+      meeting your needs are our main motto</h6>
   </div>
+    <div class="container">
+        <div class="row">
+                <div id="testimonial-slider" class="owl-carousel mb-5">
+                    <div class="testimonial">
+                        <span class="icon fa fa-quote-left"></span>
+                        <p class="description">
+                              All work was done extremely professionally. This was a sudden job after we found a leak
+  Priyanka Constructions gave us a quote, outlined the work and made sure the job was done exactly as promised – 
+  on time and with top notch quality.
+                        </p>
+                            <h3 class="title">~Anonymous</h3>
+                        <div class="testimonial-content">
+                            <div class="pic"><img src="images/man1.png" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="testimonial">
+                        <span class="icon fa fa-quote-left"></span>
+                        <p class="description" style="margin-bottom: 120px;">
+                           Various cost effective options with latest innovative solutions without modifying the exsisting structure.
+                        </p>
+                            <h3 class="title">~Anonymous</h3>
+                        <div class="testimonial-content">
+                            <div class="pic"><img src="images/man1.png" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="testimonial">
+                        <span class="icon fa fa-quote-left"></span>
+                        <p class="description" style="margin-bottom: 100px;">
+  Their service is excellent and the reason is that they are very professional, they have guaranteed solutions
+  to every kind of leakage problems.                        </p>
+                            <h3 class="title">~Anonymous</h3>
+                        <div class="testimonial-content">
+                            <div class="pic"><img src="images/man1.png" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
-<br>
-
 
 
       <!-- FOOTER -->
@@ -371,7 +381,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer"></script>
               <div class="widget-content">
                 <h5 style="color: #BCC1d1;">Company</h5>
                 <ul class="widget-links">
-                  <!-- <li><a href="about.html" style="color: #BCC1d1;">About Us</a></li> -->
+                  <li><a href="index.html" style="color: #BCC1d1;">Home</a></li>
                   <li><a href="projects.html" style="color: #BCC1d1;">Our Projects</a></li>
                   <li><a href="contact.html" style="color: #BCC1d1;"> Contact Us</a></li>
                 </ul>
@@ -389,7 +399,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         </div>
         <hr color="#BCC1d1">
         <div class="col-12 text-center">
-          <p style="color: #BCC1d1;font-size: 13px;  padding-bottom: 18px;">PRIYANKA CONSTRUCTIONS,2021 | Website by Alvina Joy</p>
+          <p style="color: #BCC1d1;font-size: 13px;  padding-bottom: 18px;">PRIYANKA CONSTRUCTIONS ,2021 | Website by Alvina Joy</p>
         </div>
       </div>
 
@@ -403,13 +413,12 @@ $('.owl-carousel').owlCarousel({
     dots:false,
     autowidth: true,
     autoplayTimeout:4000,
-
     responsive:{
         0:{
             items:1
         },
         600:{
-            items:0
+            items:1
         },
         1000:{
             items:3
@@ -417,6 +426,17 @@ $('.owl-carousel').owlCarousel({
     }
     
 })
+$(document).ready(function(){
+    $("#testimonial-slider").owlCarousel({
+        items:3,
+        itemsDesktop:[1000,3],
+        itemsDesktopSmall:[979,2],
+        itemsTablet:[768,2],
+        itemsMobile:[650,1],
+        pagination:true,
+        autoPlay:true
+    });
+});
 
 </script>
 
