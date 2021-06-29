@@ -659,17 +659,17 @@ div.transbox {
       }
     .navbar-toggler{
       position: relative;
-      top:-40px;
+      top:-60px;
     }
     .navbar-collapse{
       width: 100px;
       height: 130px;
       background-color: white;
       position: relative;
-      top:-40px;
+      top:-60px;
     }
     .logo{
-        width: 40%;
+        width: 50%;
         height: 100%;
         margin-left: 100px;
     }
@@ -717,6 +717,10 @@ div.transbox {
     div.testbox {
         width: 390px;
     } */
+    .overlay-text{
+        margin-top: 4rem;
+        font-size: 0.5rem;
+    }
     
     
     .section:before{
