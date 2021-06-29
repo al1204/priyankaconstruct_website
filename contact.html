@@ -76,25 +76,28 @@ crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <div class="contactform">
     <h1>GET IN TOUCH WITH US</h1>
     <p>Want to get in touch with us? Here's how you can reach...</p>
+    <form action="https://formsubmit.co/alvinajoy1204@gmail.com" method="POST">
+      <input type="hidden" name="_subject" value="New Message">
+      <input type="hidden" name="_next" value="http://127.0.0.1:5500/contact.html">
     <div class="formBox">
       <div class="inputBox w50">
-        <input type="text" name="" required>
+        <input type="text" name="First name" required>
         <span>First Name</span>
       </div>
       <div class="inputBox w50">
-        <input type="text" name="" required>
+        <input type="text" name="Last Name" required>
         <span>Last Name</span>
       </div>
       <div class="inputBox w50">
-        <input type="email" name="" required>
+        <input type="email" name="Email" required>
         <span>Email Address</span>
       </div>
       <div class="inputBox w50">
-        <input type="tel" name="" required>
+        <input type="tel" name="Mobile Number" required>
         <span>Mobile Number</span>
       </div>
       <div class="inputBox w100">
-        <textarea style="resize: none;" name="" required></textarea>
+        <textarea style="resize: none;" name="Message" required></textarea>
         <span>Write message here...</span>
       </div>
       <div class="inputBox w50">
@@ -102,6 +105,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer"></script>
       </div>
       <br>
     </div>
+  </form>
   </div>
 </div>
 <br>
