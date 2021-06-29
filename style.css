@@ -637,6 +637,14 @@ div.transbox {
     color: #ffffff;
     font-size: 2rem;
     }
+    .logo{
+        width:20%;
+        height:100%;
+    }
+    .footer-logo{
+        width:90%; 
+        height:100%;
+    }
       
 @media only screen and (max-width: 667px) {
     .carousel-inner{
@@ -651,16 +659,18 @@ div.transbox {
       }
     .navbar-toggler{
       position: relative;
-      top:-70px;
+      top:-60px;
     }
     .navbar-collapse{
       width: 100px;
       height: 130px;
       background-color: white;
       position: relative;
-      top:-60px;
+      top:-40px;
     }
     .logo{
+        width: 50%;
+        height: 100%;
         margin-left: 100px;
     }
     .parallax{
@@ -686,9 +696,12 @@ div.transbox {
         margin-left: 100px;
         margin-bottom: 20px;
     }
-    .logo{
-        width: 60%;
-        height: 100%;
+    .footer-logo{
+        width: 50%;
+    }
+    .widget_links {
+        font-size: 15px;
+        color: #BCC1d1;
     }
     .aboutbtn{
         margin-right:-8100px;
