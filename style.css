@@ -659,7 +659,7 @@ div.transbox {
       }
     .navbar-toggler{
       position: relative;
-      top:-60px;
+      top:-40px;
     }
     .navbar-collapse{
       width: 100px;
@@ -669,7 +669,7 @@ div.transbox {
       top:-40px;
     }
     .logo{
-        width: 50%;
+        width: 40%;
         height: 100%;
         margin-left: 100px;
     }
