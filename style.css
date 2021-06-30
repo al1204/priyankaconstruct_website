@@ -68,7 +68,7 @@ html, body{
 }
 
 .work_done{
-    background-image: url(images/work.png);
+    background-image: url(images/banner/work.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -164,7 +164,7 @@ div.transbox {
 
   .proback{
     height: 550px;
-    background-image: url(images/work.png);
+    background-image: url(images/banner/work.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -400,7 +400,7 @@ div.transbox {
   }
 
 .banner{
-    background-image: url(images/work.png);
+    background-image: url(images/banner/work.png);
     height: 350px;
 }
 .work_done_heading{
@@ -620,23 +620,20 @@ div.transbox {
         background: linear-gradient(-45deg, rgba(35, 35, 36, 0.75) 0%, rgba(53, 54, 54, 0.6) 100%);
     }
       
-    .container-1:hover .overlay {
+    .grid-wrapper div:hover .overlay {
         opacity: 1;
     }
       
-    .overlayFade {
-        height: 100%;
-        width: 100%;
-        top: 0;
+    /* .overlayFade {
         background: linear-gradient(-45deg, rgba(35, 35, 36, 0.75) 0%, rgba(53, 54, 54, 0.6) 100%);
-    }
+    } */
     .overlay-text{
         display: flex;
     justify-content: center;
     align-items: center; 
-    margin-top: 20rem;
+    margin-top: 0rem;
     color: #ffffff;
-    font-size: 2rem;
+    font-size: 1.5rem;
     }
     .logo{
         width:20%;
@@ -646,6 +643,63 @@ div.transbox {
         width:90%; 
         height:100%;
     }
+
+    .overlay-img{
+        width: 295px;height: 200px; border-radius: 3px;
+    }
+    .overlay-big{
+        width: 600px;height: 405px; border-radius: 3px;
+    }
+    .overlay-wide{
+        width: 600px;height: 200px; border-radius: 3px;
+    }
+    .overlay-tall{
+        width: 295px;height: 405px; border-radius: 3px;
+    }
+
+
+    .img_work {
+        max-width: 100%;
+        height: auto;
+        vertical-align: middle;
+        display: inline-block;
+    }
+    
+    /* Main CSS */
+    .grid-wrapper > div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .grid-wrapper > div > img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 5px;
+        
+    }
+    
+    .grid-wrapper {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-auto-rows: 200px;
+        grid-auto-flow: dense;
+    }
+    .grid-wrapper .wide {
+        grid-column: span 2;
+    }
+    .grid-wrapper .tall {
+        grid-row: span 2;
+    }
+    .grid-wrapper .big {
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+    .overlay-img{
+
+    }
+    
       
 @media only screen and (max-width: 667px) {
     .carousel-inner{
@@ -720,7 +774,25 @@ div.transbox {
     } */
     .overlay-text{
         margin-top: 4rem;
-        font-size: 0.5rem;
+        font-size: 1rem;
+    }
+    .overlay-img{
+        width: 250px;height: 200px; border-radius: 3px;
+    }
+    .overlay-img-1{
+        width: 115px;height: 200px; border-radius: 3px;
+    }
+    .overlay-big{
+        width: 375px;height: 405px; border-radius: 3px;
+    }
+    .overlay-wide{
+        width: 375px;height: 200px; border-radius: 3px;
+    }
+    .overlay-tall{
+        width: 250px;height: 405px; border-radius: 3px;
+    } 
+    .overlay-tall-1{
+        width: 115px;height: 405px; border-radius: 3px;
     }
     
     
