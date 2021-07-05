@@ -415,13 +415,13 @@ div.transbox {
 }
 
 
-/* .demo{ 
-    height: 400px;
- } */
+.demo{ 
+    height: 620px;
+ }
 .testimonial{
     background: #D12424;
     text-align: center;
-    padding: 30px 30px 50px;
+    padding: 20px 20px 0px;
     margin: 0 15px 100px;
     position: relative;
 }
@@ -444,7 +444,7 @@ div.transbox {
     display: inline-block;
     font-size: 80px;
     color: white;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     /* opacity: 0.6; */
 }
 .testimonial .description{
@@ -463,10 +463,12 @@ div.transbox {
     display: inline-block;
     border: 2px solid #fff;
     border-radius: 50%;
-    box-shadow: 0 0 2px 2px #daad86;
+    box-shadow: 0 0 2px 2px #c7ab60;
     overflow: hidden;
     z-index: 1;
     position: relative;
+    top:-35px;
+    left: 4px;
 }
 .testimonial .pic img{
     width: 100%;
@@ -477,7 +479,9 @@ div.transbox {
     font-weight: bold;
     color: white;
     text-transform: capitalize;
-    margin: 0 0 5px 0;
+    margin: 0 0 0px 0;
+    position: relative;
+    top: -20px;
 }
 .testimonial .post{
     display: block;
@@ -838,7 +842,11 @@ div.transbox {
     .proback{
         height: 500px;
     }
+    .demo{ 
+        height: 760px;
+     }
 }
+
 
 
 
