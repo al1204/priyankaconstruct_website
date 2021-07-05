@@ -724,8 +724,8 @@ div.transbox {
     .navbar-collapse{
       height: 130px;
       background-color: white;
-      position: relative;
-      top:-40px;
+      /* position: absolute; */
+      /* top:-40px; */
     }
     .logo{
         width: 50%;
