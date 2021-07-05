@@ -434,6 +434,10 @@ div.transbox {
     bottom: -40px;
     left: 0;
 }
+.testimonial-slider{
+    position: relative; 
+    top: -60px;
+}
 .testimonial:after{
     border-right: none;
     border-left: 125px solid transparent;
@@ -713,19 +717,15 @@ div.transbox {
         width: 150px;
         margin-left: 80px;
     }
-    .navbar-expand-md{
-        height:75px;
-      }
     .navbar-toggler{
       position: relative;
       top:-60px;
     }
     .navbar-collapse{
-      width: 100px;
       height: 130px;
       background-color: white;
       position: relative;
-      top:-60px;
+      top:-40px;
     }
     .logo{
         width: 50%;
@@ -776,6 +776,10 @@ div.transbox {
     div.testbox {
         width: 390px;
     } */
+    .testimonial-slider{
+        position: relative; 
+        top: -100px;
+    }
     .overlay-text{
         margin-top: 4rem;
         font-size: 1rem;
@@ -843,7 +847,7 @@ div.transbox {
         height: 500px;
     }
     .demo{ 
-        height: 760px;
+        height: 730px;
      }
 }
 
