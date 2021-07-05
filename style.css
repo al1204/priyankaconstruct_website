@@ -718,25 +718,23 @@ div.transbox {
         margin-left: 80px;
     }
     .navbar-toggler{
-      /* position: relative;
-      top:-60px; */
       position: absolute;
-  top: 8px;
-  left: 16px;
-  font-size: 18px;
+    top: 8px;
+    left: 16px;
+    font-size: 18px;
     }
     .navbar-collapse{
       height: 130px;
       background-color: white;
-      /* position: absolute; */
-      /* top:-40px; */
+      position: relative;
+      top: 30px;
     }
     .logo{
-        width: 40%;
-        height: 60%;
-        position: absolute;
-  top: 0px;
-  right: 16px;
+    width: 40%;
+    height: 60%;
+    position: absolute;
+    top: 0px;
+    right: 16px;
   /* font-size: 18px; */
     }
     .parallax{
